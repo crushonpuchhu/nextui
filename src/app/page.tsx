@@ -10,7 +10,7 @@ import Profile from '../components/profile/Profile'
 import Tables from '../components/tables/Tables'
 export default function Home() {
    
-  const[isdarkMode,SetisdarkMode]=useState(JSON.parse(status));
+  const[isdarkMode,SetisdarkMode]=useState(false);
   const [Model,SetModle]=useState(false);
   const [isShowProfile,SetisShowProfile]=useState(false);
    
